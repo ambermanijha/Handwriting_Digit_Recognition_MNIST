@@ -1,9 +1,6 @@
 #THIS IS THE GUI EXTENTION FOR THE MODEL
 
 
-
-
-
 from tkinter import *
 
 import cv2
@@ -11,7 +8,7 @@ import numpy as np
 from PIL import ImageGrab
 from tensorflow.keras.models import load_model
 
-model = load_model('digit_mnist.h5')
+model = load_model(r'C:\Users\amber\OneDrive\Desktop\Super Folder\AIML + DATA SCIENCE\AIML\Mishka\HandWriting_Digit_System\Models\digit_mnist.h5')
 image_folder = "additional_digits/"
 
 root = Tk()
